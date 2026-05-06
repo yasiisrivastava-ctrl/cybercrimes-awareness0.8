@@ -1,0 +1,52 @@
+ <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Think Before You Click</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+    <div class="overlay">
+
+        <div class="warning-box">
+            ⚠ CYBER SECURITY ALERT ⚠
+        </div>
+
+        <h1>THINK BEFORE YOU CLICK</h1>
+
+        <p class="subtitle">
+            Protect Yourself From OTP Fraud, UPI Scam, Phishing & Online Attacks
+        </p>
+
+        <div class="crime-container">
+
+            <div class="crime-card">
+                <h2>OTP FRAUD</h2>
+                <p>Never share OTP with anyone.</p>
+            </div>
+
+            <div class="crime-card">
+                <h2>UPI SCAM</h2>
+                <p>Fake payment requests can steal money.</p>
+            </div>
+
+            <div class="crime-card">
+                <h2>PHISHING</h2>
+                <p>Suspicious links may hack your account.</p>
+            </div>
+
+        </div>
+
+        <a href="/info">
+            <button>ENTER WEBSITE</button>
+        </a>
+
+    </div>
+
+</body>
+</html>

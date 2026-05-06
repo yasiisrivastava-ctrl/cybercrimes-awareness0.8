@@ -1,0 +1,437 @@
+body {
+    margin: 0;
+    padding: 0;
+
+    font-family: Arial, sans-serif;
+
+    background:
+    linear-gradient(rgba(0,0,0,0.8),
+    rgba(0,0,0,0.8)),
+    url('https://images.unsplash.com/photo-1510511459019-5dda7724fd87?q=80&w=1400');
+
+    background-size: cover;
+    background-position: center;
+
+    color: white;
+}
+
+.overlay {
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    padding: 20px;
+}
+
+.warning-box {
+    background: red;
+
+    padding: 10px 25px;
+
+    border-radius: 30px;
+
+    margin-bottom: 20px;
+
+    font-weight: bold;
+
+    animation: blink 1s infinite;
+}
+
+@keyframes blink {
+    50% {
+        opacity: 0.5;
+    }
+}
+
+h1 {
+    font-size: 70px;
+
+    color: #ff1a1a;
+
+    text-shadow:
+    0 0 10px red,
+    0 0 20px red,
+    0 0 40px red;
+
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    font-size: 22px;
+
+    max-width: 800px;
+
+    margin-bottom: 40px;
+}
+
+.crime-container {
+    display: flex;
+
+    gap: 25px;
+
+    flex-wrap: wrap;
+
+    justify-content: center;
+
+    margin-bottom: 40px;
+}
+
+.crime-card {
+    background: rgba(255,255,255,0.08);
+
+    border: 1px solid red;
+
+    width: 250px;
+
+    padding: 20px;
+
+    border-radius: 15px;
+
+    backdrop-filter: blur(5px);
+
+    transition: 0.3s;
+}
+
+.crime-card:hover {
+    transform: translateY(-10px);
+
+    box-shadow: 0 0 20px red;
+}
+
+.crime-card h2 {
+    color: red;
+}
+
+button {
+    padding: 15px 40px;
+
+    font-size: 18px;
+
+    border: none;
+
+    border-radius: 10px;
+
+    background: red;
+
+    color: white;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+button:hover {
+    transform: scale(1.08);
+
+    background: darkred;
+
+    box-shadow: 0 0 20px red;
+} 
+nav {
+    background: black;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    padding: 15px 40px;
+
+    border-bottom: 2px solid red;
+}
+
+nav h2 {
+    color: red;
+}
+
+nav ul {
+    display: flex;
+
+    list-style: none;
+
+    gap: 20px;
+}
+
+nav li {
+    cursor: pointer;
+}
+
+.hero-section {
+    text-align: center;
+
+    padding: 80px 20px;
+}
+
+.hero-section h1 {
+    color: red;
+
+    font-size: 50px;
+}
+
+.hero-section p {
+    max-width: 800px;
+
+    margin: auto;
+
+    font-size: 20px;
+}
+
+.cards-section {
+    display: flex;
+
+    justify-content: center;
+
+    gap: 25px;
+
+    flex-wrap: wrap;
+
+    padding: 40px;
+}
+
+.info-card {
+    background: rgba(255,255,255,0.08);
+
+    width: 280px;
+
+    padding: 25px;
+
+    border-radius: 15px;
+
+    border: 1px solid red;
+
+    transition: 0.3s;
+}
+
+.info-card:hover {
+    transform: translateY(-10px);
+
+    box-shadow: 0 0 20px red;
+}
+
+.info-card h2 {
+    color: red;
+}
+/* INFO PAGE */
+
+nav {
+    background: #050505;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    padding: 18px 50px;
+
+    border-bottom: 2px solid red;
+
+    position: sticky;
+
+    top: 0;
+}
+
+.logo {
+    color: red;
+
+    font-size: 26px;
+
+    font-weight: bold;
+
+    text-shadow: 0 0 10px red;
+}
+
+nav ul {
+    display: flex;
+
+    list-style: none;
+
+    gap: 25px;
+}
+
+nav li {
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+nav li:hover {
+    color: red;
+}
+
+.info-hero {
+    text-align: center;
+
+    padding: 100px 20px;
+
+    background:
+    linear-gradient(rgba(0,0,0,0.8),
+    rgba(0,0,0,0.8)),
+    url('https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=1400');
+
+    background-size: cover;
+
+    background-position: center;
+}
+
+.info-hero h1 {
+    font-size: 55px;
+
+    color: red;
+
+    text-shadow: 0 0 20px red;
+}
+
+.info-hero p {
+    max-width: 800px;
+
+    margin: auto;
+
+    font-size: 22px;
+}
+
+.stats-section {
+    display: flex;
+
+    justify-content: center;
+
+    gap: 30px;
+
+    flex-wrap: wrap;
+
+    padding: 60px 20px;
+
+    background: #0d1117;
+}
+
+.stat-box {
+    background: rgba(255,255,255,0.06);
+
+    width: 250px;
+
+    padding: 30px;
+
+    border-radius: 15px;
+
+    border: 1px solid red;
+
+    text-align: center;
+
+    transition: 0.3s;
+}
+
+.stat-box:hover {
+    transform: translateY(-10px);
+
+    box-shadow: 0 0 20px red;
+}
+
+.stat-box h2 {
+    color: red;
+
+    font-size: 40px;
+}
+
+.crime-section {
+    padding: 70px 20px;
+
+    text-align: center;
+}
+
+.crime-section h1 {
+    color: red;
+
+    font-size: 45px;
+
+    margin-bottom: 40px;
+}
+
+.crime-grid {
+    display: flex;
+
+    flex-wrap: wrap;
+
+    justify-content: center;
+
+    gap: 30px;
+}
+
+.crime-item {
+    background: rgba(255,255,255,0.05);
+
+    width: 260px;
+
+    padding: 25px;
+
+    border-radius: 15px;
+
+    border: 1px solid red;
+
+    transition: 0.3s;
+}
+
+.crime-item:hover {
+    transform: scale(1.05);
+
+    box-shadow: 0 0 20px red;
+}
+
+.crime-item h2 {
+    color: red;
+}
+
+.safety-section {
+    display: flex;
+
+    justify-content: center;
+
+    gap: 40px;
+
+    flex-wrap: wrap;
+
+    padding: 70px 20px;
+
+    background: #111827;
+}
+
+.do-box,
+.dont-box {
+    width: 350px;
+
+    padding: 30px;
+
+    border-radius: 15px;
+
+    background: rgba(255,255,255,0.06);
+
+    border: 1px solid red;
+}
+
+.do-box h2,
+.dont-box h2 {
+    color: red;
+
+    text-align: center;
+}
+
+.do-box ul,
+.dont-box ul {
+    line-height: 2;
+}
+
+footer {
+    background: black;
+
+    text-align: center;
+
+    padding: 25px;
+
+    border-top: 2px solid red;
+}
