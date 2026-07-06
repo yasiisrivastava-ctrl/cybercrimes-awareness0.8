@@ -547,4 +547,95 @@ footer {
     color:white;
     line-height:1.6;
 }
- 
+/* ========================= */
+/* PASSWORD PAGE */
+/* ========================= */
+
+.password-hero{
+    text-align:center;
+    padding:80px 20px;
+}
+
+.password-hero h1{
+    color:#10B981;
+    font-size:50px;
+    text-shadow:0 0 15px #10B981;
+}
+
+.password-hero p{
+    font-size:20px;
+    max-width:700px;
+    margin:auto;
+}
+
+.password-container{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    flex-wrap:wrap;
+    padding:50px 20px;
+}
+
+.password-card{
+    width:320px;
+    background:rgba(255,255,255,0.06);
+    border:1px solid #10B981;
+    border-radius:15px;
+    padding:25px;
+    transition:.3s;
+}
+
+.password-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 0 20px #10B981;
+}
+
+.password-card h2{
+    color:#10B981;
+    margin-bottom:15px;
+}
+
+.password-card ul{
+    line-height:2;
+}
+
+.password-card input{
+    width:90%;
+    padding:12px;
+    border:1px solid #10B981;
+    border-radius:8px;
+    background:#111827;
+    color:white;
+    font-size:16px;
+}
+
+.password-card button{
+    margin-top:15px;
+    background:#10B981;
+    color:white;
+    border:none;
+    padding:12px 25px;
+    border-radius:8px;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.password-card button:hover{
+    background:#0d9668;
+    transform:scale(1.05);
+}
+
+#result{
+    margin-top:20px;
+    font-size:22px;
+    text-align:center;
+}
+
+.back-btn{
+    color:white;
+    text-decoration:none;
+}
+
+.back-btn:hover{
+    color:#10B981;
+} 
